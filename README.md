@@ -26,6 +26,14 @@ Incluye un diagrama (ASCII/Mermaid/imagen) y una explicación breve.
 
 ### Explicación (8–12 líneas)
 (Describe el flujo front → API → BBDD/storage y dónde entra la cloud)
+El usuario accede a la aplicación desde el navegador web.
+El frontend se encarga de mostrar la interfaz y enviar peticiones HTTP al backend.
+El backend se ejecuta en la cloud (en un servicio PaaS) y procesa la lógica de negocio.
+La API recibe las peticiones del frontend y decide qué datos necesita.
+Para datos estructurados, el backend consulta la base de datos en la nube.
+Para archivos como imágenes, usa un servicio de almacenamiento cloud.
+La cloud permite escalado automático según la carga de usuarios.
+También se encarga de la alta disponibilidad y la seguridad básica de la infraestructura.
 
 ### Mapeo de funciones cloud a componentes (mínimo 3)
 - Procesamiento → …
