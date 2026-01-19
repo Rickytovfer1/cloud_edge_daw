@@ -22,7 +22,8 @@ Crea una tabla con 10 servicios reales. Incluye enlace oficial y justifica respo
 Incluye un diagrama (ASCII/Mermaid/imagen) y una explicación breve.
 
 ### Diagrama
-(Pega aquí el diagrama)
+<img width="1148" height="654" alt="image" src="https://github.com/user-attachments/assets/98c6f4bd-ee1a-48ae-99e2-fa361b9873e0" />
+
 
 ### Explicación (8–12 líneas)
 (Describe el flujo front → API → BBDD/storage y dónde entra la cloud)
