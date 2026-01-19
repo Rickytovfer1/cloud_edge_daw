@@ -37,10 +37,21 @@ La cloud permite escalado automático según la carga de usuarios.
 También se encarga de la alta disponibilidad y la seguridad básica de la infraestructura.
 
 ### Mapeo de funciones cloud a componentes (mínimo 3)
-- Procesamiento → …
-- Ejecución → …
-- Almacenamiento → …
+
+- Procesamiento → Backend / API desplegada en la cloud, donde se gestiona la lógica de negocio.
+- Ejecución → Plataforma cloud (PaaS o IaaS) encargada de ejecutar la aplicación y asignar recursos.
+- Almacenamiento → Servicios de base de datos y almacenamiento en la nube para datos y archivos.
 - Intercambio → … (opcional si ya tienes 3)
 
 ## 📚 Fuentes (enlaces oficiales)
-(Enlaces oficiales usados en la tabla A y en la B)
+
+- AWS EC2 → https://aws.amazon.com/ec2/
+- Google Compute Engine → https://cloud.google.com/compute
+- Azure Virtual Machines → https://azure.microsoft.com/services/virtual-machines/
+- Heroku → https://www.heroku.com/
+- Google App Engine → https://cloud.google.com/appengine
+- AWS Elastic Beanstalk → https://aws.amazon.com/elasticbeanstalk/
+- Azure App Service → https://azure.microsoft.com/services/app-service/
+- Google Workspace → https://workspace.google.com/
+- Microsoft 365 → https://www.microsoft.com/microsoft-365
+
