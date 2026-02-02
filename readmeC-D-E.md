@@ -1,18 +1,22 @@
 # Tarea (c+d+e) · Edge, Fog, Mist y Cloud (DAW 1º)
 
-## 🅲 Tarea C — Edge Computing y relación con Cloud
-**Definición (3–5 líneas):**
-...
+# Tarea C — Edge Computing y relación con Cloud
 
-**Relación Edge ↔ Cloud (5–8 líneas):**
-...
+## Definición
+Edge Computing es un modelo de computación donde los datos se procesan cerca de su origen, como sensores o dispositivos IoT, en lugar de depender solo de centros de datos remotos. Esto permite reducir la latencia y mejorar la eficiencia en tiempo real.
 
-**Ejemplo real:**
-...
+## Relación Edge ↔ Cloud
+Edge y Cloud son complementarios: el Edge procesa datos localmente para decisiones rápidas, mientras que la nube gestiona almacenamiento masivo, análisis profundo y respaldo. Los datos críticos se filtran en el Edge y luego se sincronizan con la nube para análisis históricos y escalabilidad.
 
-**Fuentes oficiales (mín. 2):**
-- ...
-- ...
+## Ejemplo real
+En ciudades inteligentes, los sensores de tráfico analizan información en tiempo real en nodos de Edge para controlar semáforos y alertar emergencias, mientras que la nube centraliza datos para planificación y optimización urbana. 
+
+## Fuentes oficiales
+- https://www.ibm.com/topics/edge-computing  
+- https://azure.microsoft.com
+- https://aws.amazon.com/what-is/edge-computing/
+
+
 
 ## 🅳 Tarea D — Fog vs Mist (niveles y zonas de aplicación)
 **Definición Fog (2–4 líneas):**
@@ -50,3 +54,4 @@ Incluye mínimo 3 ventajas (recomendado 5), con explicación + ejemplo.
 
 ## 📚 Fuentes (enlaces oficiales)
 (Recopila aquí todos los enlaces oficiales usados)
+
