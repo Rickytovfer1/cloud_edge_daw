@@ -17,7 +17,6 @@ En ciudades inteligentes, los sensores de tráfico analizan información en tiem
 - https://aws.amazon.com/what-is/edge-computing/
 
 
-
 # Tarea D — Fog vs Mist (niveles y zonas de aplicación)
 
 ## Definición Fog
@@ -40,25 +39,36 @@ graph TD
 - Cloud: Almacenamiento masivo, análisis profundo, entrenamiento de modelos y coordinación global.
 
 
-## 🅴 Tarea E — Ventajas de la Cloud en sistemas conectados
-Incluye mínimo 3 ventajas (recomendado 5), con explicación + ejemplo.
+# Tarea E — Ventajas de la Cloud en sistemas conectados
 
-1) Ventaja: ...
-   Explicación: ...
-   Ejemplo: ...
+1) Ventaja: Escalabilidad  
+   Explicación: Permite aumentar o reducir recursos según la demanda sin infraestructura física adicional.  
+   Ejemplo: Tienda online ajusta servidores en promociones.  
 
-2) Ventaja: ...
-   Explicación: ...
-   Ejemplo: ...
+2) Ventaja: Acceso remoto  
+   Explicación: Se puede acceder a los sistemas desde cualquier lugar con Internet.  
+   Ejemplo: Supervisión de sensores industriales desde otra ciudad.  
 
-3) Ventaja: ...
-   Explicación: ...
-   Ejemplo: ...
+3) Ventaja: Reducción de costos  
+   Explicación: Minimiza gastos en hardware y mantenimiento pagando solo por lo usado.  
+   Ejemplo: Startup de IoT usa servidores en la nube sin comprarlos.  
 
-**Fuente oficial (mín. 1):**
-- ...
+4) Ventaja: Seguridad y respaldo  
+   Explicación: Cifrado, copias de seguridad y recuperación ante fallos protegen los datos.  
+   Ejemplo: Clínica recupera información de pacientes tras un fallo local.  
+
+5) Ventaja: Análisis centralizado de datos  
+   Explicación: Facilita combinar información de múltiples dispositivos para tomar decisiones.  
+   Ejemplo: Empresa de logística optimiza rutas usando datos de GPS.  
+
+## Fuente oficial
+- Microsoft Azure — https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
 
 ## 📚 Fuentes (enlaces oficiales)
-(Recopila aquí todos los enlaces oficiales usados)
+- Microsoft Azure — https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
+- https://www.ibm.com/topics/edge-computing  
+- https://azure.microsoft.com
+- https://aws.amazon.com/what-is/edge-computing/
+
 
 
