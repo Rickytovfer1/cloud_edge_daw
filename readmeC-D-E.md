@@ -18,21 +18,27 @@ En ciudades inteligentes, los sensores de tráfico analizan información en tiem
 
 
 
-## 🅳 Tarea D — Fog vs Mist (niveles y zonas de aplicación)
-**Definición Fog (2–4 líneas):**
-...
+# Tarea D — Fog vs Mist (niveles y zonas de aplicación)
 
-**Definición Mist (2–4 líneas):**
-...
+## Definición Fog
+Fog Computing es un modelo de computación intermedio entre el Edge y la nube, que procesa y analiza datos cerca de los dispositivos, reduciendo la latencia y el tráfico hacia la nube, especialmente útil en redes distribuidas o IoT.
 
-**Esquema (ASCII o Mermaid recomendado):**
-...
+## Definición Mist
+Mist Computing es la capa más cercana a los dispositivos finales, donde el procesamiento se realiza en microdispositivos o nodos muy pequeños. Permite respuestas inmediatas y eficiencia en tiempo real con recursos limitados.
 
-**Zonas de aplicación (qué hace cada capa):**
-- Mist → ...
-- Edge → ...
-- Fog → ...
-- Cloud → ...
+## Esquema (Mermaid)
+graph TD
+    A[Dispositivos IoT] --> B[Mist]
+    B --> C[Edge]
+    C --> D[Fog]
+    D --> E[Cloud]
+
+## Zonas de aplicación
+- Mist: Procesamiento inmediato en microdispositivos, decisiones rápidas y filtrado de datos locales.
+- Edge: Procesamiento local más potente, coordinación de múltiples nodos y tareas de baja latencia.
+- Fog: Agregación y análisis de datos a nivel regional, gestión de tráfico y optimización antes de enviar a la nube.
+- Cloud: Almacenamiento masivo, análisis profundo, entrenamiento de modelos y coordinación global.
+
 
 ## 🅴 Tarea E — Ventajas de la Cloud en sistemas conectados
 Incluye mínimo 3 ventajas (recomendado 5), con explicación + ejemplo.
@@ -54,4 +60,5 @@ Incluye mínimo 3 ventajas (recomendado 5), con explicación + ejemplo.
 
 ## 📚 Fuentes (enlaces oficiales)
 (Recopila aquí todos los enlaces oficiales usados)
+
 
