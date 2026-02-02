@@ -65,10 +65,11 @@ graph TD
 - Microsoft Azure — https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
 
 ## 📚 Fuentes (enlaces oficiales)
-- Microsoft Azure — https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
+- https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/
 - https://www.ibm.com/topics/edge-computing  
 - https://azure.microsoft.com
 - https://aws.amazon.com/what-is/edge-computing/
+
 
 
 
